@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-image: url('../Assets/Squeeze Page Template 3 bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-bottom: 3rem;
+    overflow-x: hidden
+}
+
+@font-face {
+    font-family: Gotham__Bold;
+    src: url('../Fonts/Gotham-Font/Gotham-Font/Gotham-Bold.otf');
+}
+
+@font-face {
+    font-family: Gotham__Black;
+    src: url('../Fonts/Gotham-Font/Gotham-Font/Gotham-Black.otf');
+}
+
+
+
+@font-face {
+    font-family: GothamMedium;
+    src: url('../Fonts/Gotham-Font/Gotham-Font/GothamMedium.ttf');
+}
+
+.spec {
+    text-align: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.browns {
+    background-color: #5e454b;
+    border-radius: 40px;
+    padding: 12px 10px;
+}
+
+.browns h4 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: calc(20pt + 0.15vw);
+    font-weight: 800;
+    font-family: 'Gotham__Black';
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.spec .unsl {
+    font-size: calc(28pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.1165;
+    color: #ad4238;
+    font-weight: 700;
+    font-family: "Gotham__Bold";
+}
+
+.spec .money {
+    font-size: calc(29pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.1165;
+    color: #5e454b;
+    font-weight: 700;
+    font-family: "Gotham__Black";
+    margin-top: 5rem;
+}
+
+#obj {
+    margin-top: 7rem;
+}
+
+
+
+.spec .space {
+    color: #5e454b;
+    margin-bottom: 0;
+    font-size: calc(20pt + 0.15vw);
+    font-weight: 800;
+    font-family: 'Gotham__Bold';
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+.spec .space span {
+    color: #ad4238;
+}
+
+.brownss {
+    background-color: #5e454b;
+    border-radius: 50px;
+    padding: 12px 10px;
+    margin-top: 7rem;
+}
+
+.brownss h3 {
+    color: #ffffff;
+    margin-bottom: 0;
+    font-size: calc(22pt + 0.15vw);
+    font-weight: 800;
+    font-family: 'Gotham__Black';
+    letter-spacing: 0.03em;
+    line-height: 1.2195;
+}
+
+
+.pink_div {
+    -webkit-filter: drop-shadow(0px 13px 19px rgba(0, 0, 0, 0.39));
+    filter: drop-shadow(0px 13px 19px rgba(0, 0, 0, 0.39));
+    background-color: #fff6e5;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.pink_div h4 {
+    font-size: calc(18pt + 0.15vw);
+    letter-spacing: 0.03em;
+    line-height: 1.1195;
+    font-weight: 700;
+    font-family: "Gotham__Bold";
+    color: #5e454b;
+}
+
+
+.search {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.search input {
+    padding: 12px;
+    text-indent: 25px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    -webkit-filter: drop-shadow(0px 9px 11px rgba(0, 0, 0, 0.13));
+    filter: drop-shadow(0px 9px 11px rgba(0, 0, 0, 0.13));
+    background-color: #ffffff;
+    font-size: calc(11pt + 0.15vw);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-family: "Gotham__Bold";
+}
+
+.search input:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 2px solid blue
+}
+
+.search .fa-user {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #acacac;
+    font-size: 25px;
+}
+
+.search .fa-envelope {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    color: #acacac;
+    font-size: 25px;
+}
+
+.button-fds a {
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    color: #d3715b;
+    background-color: #fcff00 !important;
+    border-color: #fcff00 !important;
+}
+
+
+
+
+
+.btn-primary {
+    color: #ffffff;
+    -webkit-filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.38)) !important;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.38)) !important;
+    background-color: #d3715b !important;
+    border-color: #d3715b !important;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: calc(11pt + 0.15vw);
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-family: "Gotham__Bold";
+    width: 80%;
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 1399.98px) {
+    .spec {
+        max-width: 80%;
+    }
+}
+
+
+@media screen and (max-width: 1199.98px) {
+    .spec {
+        max-width: 90%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .spec .unsl {
+        font-size: calc(22pt + 0.15vw);
+    }
+
+    .spec .money {
+        font-size: calc(24pt + 0.15vw);
+    }
+
+    .spec .space {
+        font-size: calc(15pt + 0.15vw);
+    }
+
+    .brownss h3 {
+        font-size: calc(15pt + 0.15vw);
+    }
+
+    .pink_div h4 {
+        font-size: calc(15pt + 0.15vw);
+    }
+
+    .browns h4 {
+        font-size: calc(15pt + 0.15vw);
+    }
+
+    .pink_div {
+        width: 100%;
+        padding: 10px;
+        margin-top: 4rem;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .search {
+        width: 100%;
+    }
+
+    .btn-primary {
+        width: auto;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .brownss {
+        margin-top: 4rem;
+    }
+
+    .spec .unsl {
+        font-size: calc(17pt + 0.15vw);
+    }
+
+    .spec .money {
+        font-size: calc(18pt + 0.15vw);
+    }
+
+    .spec .space {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .brownss h3 {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .pink_div h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+
+    .browns h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+}
+
+
+@media screen and (max-width: 538px) {
+    .btn-primary {
+        padding: 10px;
+        font-size: calc(10pt + 0.15vw);
+    }
+
+    .search input {
+        padding: 12px 10px;
+        text-indent: 10px;
+        font-size: calc(10pt + 0.15vw);
+    }
+
+    #obj img {
+        width: 100%;
+    }
+}
